@@ -1,0 +1,468 @@
+* {
+  scroll-behavior: smooth;
+}
+
+header {
+  position: fixed;
+  background-color: #fed43a;
+  width: 7%;
+  height: 100%;
+  z-index: 11;
+}
+header .media {
+  text-align: center;
+  margin-top: 60px;
+  padding-bottom: 60px;
+}
+header .media i {
+  font-size: 27px;
+  margin-top: 30px;
+  color: black;
+  display: block;
+}
+header nav {
+  padding-top: 56px;
+  text-align: center;
+}
+header nav ul li {
+  transform: rotate(-90deg);
+  margin-bottom: 110px;
+  font-family: "Rubik Moonrocks", cursive;
+  font-family: "Sora", sans-serif;
+  font-size: 18px;
+}
+header nav ul li a {
+  color: black;
+  font-weight: 500;
+}
+
+main {
+  margin-left: 100px !important;
+}
+main #home {
+  display: flex;
+}
+main #home .left {
+  padding-left: 50px;
+  padding-top: 60px;
+  background-color: #121212;
+}
+@keyframes show {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+main #home .left h1 {
+  animation-fill-mode: forwards; /* Son stil deyerlerini saxlayir */
+  transform: scale(0);
+  animation-name: show;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  color: white;
+  font-size: 70px;
+  font-family: "Anton", sans-serif;
+  color: #000000;
+  margin-bottom: 30px;
+  -webkit-text-stroke: 1px white;
+}
+main #home .left h1 span {
+  font-family: "Rubik Moonrocks", cursive;
+  font-family: "Sora", sans-serif;
+  display: block;
+  color: white;
+  font-weight: 900;
+}
+main #home .left h3 {
+  animation-fill-mode: forwards; /* Son stil deyerlerini saxlayir */
+  transform: scale(0);
+  animation-name: show;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  font-size: 27px;
+  color: white;
+  padding-right: 300px;
+  font-family: "Rubik Moonrocks", cursive;
+  font-family: "Sora", sans-serif;
+  font-weight: 600;
+}
+main #home .left button {
+  animation-fill-mode: forwards; /* Son stil deyerlerini saxlayir */
+  transform: scale(0);
+  animation-name: show;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  margin-bottom: 100px;
+  cursor: pointer;
+  margin-top: 50px;
+  padding: 15px 50px;
+  color: #121212;
+  font-size: 18px;
+  font-family: "Rubik Moonrocks", cursive;
+  font-family: "Sora", sans-serif;
+  border: 0px;
+  background-color: #fed43a;
+}
+main #home .right {
+  background-color: #fed43a;
+  text-align: center;
+}
+main #home .right img {
+  border-radius: 100px;
+  width: 500px;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-bottom: 80px;
+  transform: scaleX(0);
+  animation-fill-mode: forwards; /* Son stil deyerlerini saxlayir */
+  animation-name: image;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  border-bottom: 10px solid black;
+}
+@keyframes image {
+  100% {
+    transform: scaleX(-1);
+  }
+}
+main #home .right button {
+  animation-fill-mode: forwards; /* Son stil deyerlerini saxlayir */
+  transform: scale(0);
+  animation-name: show;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  margin-top: 47px;
+  margin-bottom: 100px;
+  cursor: pointer;
+  padding: 15px 50px;
+  font-size: 18px;
+  font-family: "Rubik Moonrocks", cursive;
+  font-family: "Sora", sans-serif;
+  border: 0px;
+  background-color: #6c48c2;
+}
+main #home .right button a {
+  color: #ffffff;
+  font-weight: 600;
+}
+main #work {
+  display: flex;
+}
+main #work .left {
+  padding-left: 50px;
+  padding-top: 60px;
+  background-color: #121212;
+}
+main #work .left h1 {
+  text-align: center;
+  font-size: 88px;
+  font-family: "Arial", sans-serif;
+  color: white;
+  margin-bottom: 50px;
+}
+main #work .left h3 {
+  color: white;
+  font-size: 44px;
+  font-family: "Sora", sans-serif;
+}
+main #work .left h3 span {
+  margin-right: 15px;
+}
+main #work .left h4 {
+  font-size: 23px;
+  font-family: "Sora", sans-serif;
+  color: white;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 90px;
+}
+main #work .left .texts {
+  border-left: 1px solid rgba(255, 255, 255, 0.73);
+  padding-left: 60px;
+  margin-left: 30px;
+  color: white;
+  margin-right: 100px;
+  font-family: "Sora", sans-serif;
+  padding-bottom: 20px;
+}
+main #work .left .texts .role {
+  margin-top: 200px;
+  padding: 20px 0px;
+  border-bottom: 2px solid white;
+  border-top: 2px solid white;
+  margin-bottom: 30px;
+}
+main #work .left .texts .role span {
+  font-weight: 800;
+  margin-right: 10px;
+}
+main #work .left .texts button {
+  animation-fill-mode: forwards; /* Son stil deyerlerini saxlayir */
+  transform: scale(0);
+  animation-name: show;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  margin-bottom: 0px;
+  cursor: pointer;
+  padding: 20px 50px;
+  color: #121212;
+  font-size: 18px;
+  font-family: "Rubik Moonrocks", cursive;
+  font-family: "Sora", sans-serif;
+  border: 0px;
+  background-color: #fed43a;
+}
+main #work .left .texts button a {
+  color: black;
+}
+main #work .right {
+  background-color: #fed43a;
+}
+main #work .right img {
+  width: 550px !important;
+  margin-left: 40px;
+  padding-left: 120px;
+  margin-right: 110px;
+  margin-top: 300px;
+}
+main .work2 .right img {
+  margin-top: 50px !important;
+  width: 750px !important;
+  margin-left: 75px !important;
+  padding-left: 0px !important;
+  margin-right: 75px !important;
+}
+main .work3 .right img {
+  margin-top: 50px !important;
+  width: 750px !important;
+  margin-left: 75px !important;
+  padding-left: 0px !important;
+  margin-right: 75px !important;
+}
+main #about {
+  display: flex;
+}
+main #about .left {
+  padding-left: 50px;
+  padding-top: 60px;
+  background-color: #121212;
+}
+main #about .left h1 {
+  text-align: center;
+  font-size: 88px;
+  font-family: "Arial", sans-serif;
+  color: white;
+  margin-bottom: 50px;
+  padding-right: 172.5px;
+  padding-left: 110px;
+  margin-top: 100px;
+}
+main #about .left ul {
+  margin-top: 100px;
+  color: white;
+  text-align: center;
+  font-family: "Sora", sans-serif;
+}
+main #about .left ul li {
+  margin-bottom: 100px;
+  margin-right: 50px;
+  padding: 0px 100px;
+}
+main #about .left ul li i {
+  color: black;
+  font-size: 70px;
+  margin-bottom: 30px;
+  background-color: #fed43a;
+  padding: 20px 30px;
+  border-radius: 50px;
+}
+main #about .left ul li h4 {
+  font-size: 30px;
+  color: #fed43a;
+  margin-bottom: 10px;
+}
+main #about .right {
+  background-color: #fed43a;
+}
+main #about .right ul {
+  margin-top: 350px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "Sora", sans-serif;
+}
+main #about .right ul li {
+  margin-bottom: 60px;
+  margin-right: 229px;
+  margin-left: 229.5px;
+}
+main #about .right ul li i {
+  color: black;
+  font-size: 70px;
+  margin-bottom: 10px;
+  padding: 20px 30px;
+  border-radius: 50px;
+}
+main #about .right ul li h4 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+main #tools {
+  display: flex;
+  position: relative;
+}
+main #tools .left {
+  margin-left: 6px;
+  width: 722px;
+  padding-left: 50px;
+  padding-top: 60px;
+  background-color: #121212;
+}
+main #tools .left h1 {
+  text-align: center;
+  font-size: 88px;
+  font-family: "Arial", sans-serif;
+  color: white;
+  margin-bottom: 50px;
+  margin-top: 100px;
+  margin-right: 100px;
+}
+main #tools .left .tool-box {
+  overflow: hidden !important;
+  color: white;
+  background-color: #121212;
+  border: 5px solid #fed43a;
+  padding: 50px 50px;
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 50px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+main #tools .left .tool-box .box {
+  color: black;
+  font-family: "Sora", sans-serif;
+  width: 20%;
+  padding: 20px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+  background-color: #fed43a;
+  border-radius: 50px;
+  text-align: center;
+}
+main #tools .left .tool-box .box span {
+  display: block;
+  font-size: 25px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+main #tools .left .tool-box .box img {
+  width: 50px;
+}
+main #tools .right {
+  width: 50%;
+  height: 1100px;
+  background-color: #fed43a;
+}
+main .programming {
+  position: relative;
+}
+main .programming .tool-box {
+  z-index: 1;
+  position: absolute;
+  right: 100px !important;
+  left: -30px !important;
+  padding-left: 90px !important;
+  border-top-right-radius: 50px !important;
+  border-bottom-right-radius: 50px !important;
+}
+main .aboutme {
+  position: relative;
+}
+main .aboutme .left {
+  height: 600px !important;
+}
+main .aboutme .left h1 {
+  color: #fed43a !important;
+}
+main .aboutme .right {
+  height: 600px !important;
+}
+main .aboutme .tool-box {
+  width: 70rem;
+  font-family: "Sora", sans-serif;
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  z-index: 1;
+  position: absolute;
+  padding-left: 90px !important;
+  border-top-right-radius: 50px !important;
+  border-bottom-right-radius: 50px !important;
+}
+main .aboutme .tool-box i {
+  color: #fed43a;
+  font-size: 120px;
+  margin-right: 30px;
+}
+main #contact {
+  background-color: #fed43a;
+  margin: auto;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+main #contact h1 {
+  font-size: 54px;
+  font-family: "Sora", sans-serif;
+}
+main #contact p {
+  font-size: 24px;
+  font-family: "Sora", sans-serif;
+  margin-top: 20px;
+}
+main #contact .box {
+  margin-top: 50px !important;
+  margin: auto;
+  width: 60%;
+  background-color: #1d1d1d;
+  border: 10px solid white;
+  margin-bottom: 50px;
+}
+main #contact .box h2 {
+  font-size: 34px;
+  font-family: "Sora", sans-serif;
+  color: white;
+  margin-top: 20px;
+}
+main #contact .box p {
+  color: white;
+  font-size: 18px;
+}
+main #contact .box input {
+  margin-top: 15px !important;
+  display: block;
+  margin: auto;
+  width: 30%;
+  height: 2rem;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+main #contact .box textarea {
+  display: block;
+  margin-top: 15px !important;
+  margin-bottom: 15px !important;
+  margin: auto;
+  border-radius: 10px;
+}
+main #contact .box button {
+  width: 30%;
+  height: 2.5rem;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #fed43a;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
